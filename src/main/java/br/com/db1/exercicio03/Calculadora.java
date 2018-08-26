@@ -5,6 +5,11 @@ public class Calculadora {
 	private Double primeiroValor;
 	private Double segundoValor;
 
+	public Calculadora(Double primeiroValor, Double segundoValor){
+		this.primeiroValor = primeiroValor;
+		this.segundoValor = segundoValor;
+	}
+	
 	public void zerarCalculo() {
 
 	}
@@ -29,10 +34,6 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	public Calculadora(Double primeiroValor, Double segundoValor){
-		this.primeiroValor = primeiroValor;
-		this.segundoValor = segundoValor;
-	}
 	
 	public Double getResultado() {
 		return resultado;
