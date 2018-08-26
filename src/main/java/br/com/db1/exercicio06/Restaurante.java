@@ -4,27 +4,25 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import br.com.db1.exercicio04.Telefone;
-
 public class Restaurante {
 	private String nome;
 	private Boolean serveAlmoco;
 	private Boolean serveJantar;
 	private Boolean serveCafeDaManha;
 	private Endereco endereco;
-	private List<Telefone> telefones;
+	private List<TelefoneExercicio6> telefones;
 	private List<Pedido> pedidos;
 
 	public Restaurante() {
-		telefones = new ArrayList<Telefone>();
+		telefones = new ArrayList<TelefoneExercicio6>();
 		pedidos = new ArrayList<Pedido>();
 	}
 
-	public List<Telefone> getTelefones() {
+	public List<TelefoneExercicio6> getTelefones() {
 		return telefones;
 	}
 
-	public void addTelefones(Telefone telefones) {
+	public void addTelefones(TelefoneExercicio6 telefones) {
 		this.telefones.add(telefones);
 	}
 
