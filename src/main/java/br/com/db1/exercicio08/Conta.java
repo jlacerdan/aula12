@@ -5,7 +5,9 @@ public class Conta {
 	private Integer numero;
 	private Integer digitoVerificador;
 	
+	
 	Agencia ag = new Agencia();
+	Pessoa p = new Pessoa();
 	
 	public void calcularDigitoVerificador(){
 		
