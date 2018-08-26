@@ -3,6 +3,15 @@ package br.com.db1.exercicio02;
 public class Roupa {
 	private String marca;
 	private Integer anoFabricao;
+	private Tamanho tamanho;
+	
+	public Tamanho getTamanho(){
+		return tamanho;
+	}
+	
+	public void setTamanho(Tamanho tamanho){
+		this.tamanho = tamanho;
+	}
 	
 	public String getMarca() {
 		return marca;
