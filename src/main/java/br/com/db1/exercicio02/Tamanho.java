@@ -5,8 +5,8 @@ public enum Tamanho {
 	
 	private String tamanho;
 	
-	private Tamanho(String tamanhoParametro) {
-		tamanho = tamanhoParametro;
+	private Tamanho(String tamanho) {
+		this.tamanho = tamanho;
 	}
 	
 	

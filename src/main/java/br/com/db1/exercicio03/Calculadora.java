@@ -29,9 +29,9 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	public Calculadora(Double valor1, Double valor2){
-		primeiroValor = valor1;
-		segundoValor = valor2;
+	public Calculadora(Double primeiroValor, Double segundoValor){
+		this.primeiroValor = primeiroValor;
+		this.segundoValor = segundoValor;
 	}
 	
 	public Double getResultado() {
