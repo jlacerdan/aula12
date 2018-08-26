@@ -8,4 +8,10 @@ public enum TipoLogradouro {
 	private TipoLogradouro(String tipoLogradouro) {
 		this.tipoLogradouro = tipoLogradouro;
 	}
+
+	public String getTipoLogradouro() {
+		return tipoLogradouro;
+	}
+	
+	
 }

@@ -3,6 +3,15 @@ package br.com.db1.exercicio06;
 public class Endereco {
 	private String logradouro;
 	private Integer cep;
+	private TipoLogradouro tipoLogradouro;
+	
+	public TipoLogradouro getTipoLogradouro(){
+		return tipoLogradouro;
+	}
+	
+	public void setTipoLogradouro(TipoLogradouro tipoLogradouro){
+		this.tipoLogradouro = tipoLogradouro;
+	}
 	
 	public String exibirCepFormatado(){
 		String temp = Integer.toString(cep);

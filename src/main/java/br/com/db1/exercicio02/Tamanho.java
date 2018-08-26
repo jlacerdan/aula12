@@ -12,10 +12,6 @@ public enum Tamanho {
 	public String getTamanho() {
 		return tamanho;
 	}
-
-	public void setTamanho(String tamanho) {
-		this.tamanho = tamanho;
-	}
 	
 	
 	
